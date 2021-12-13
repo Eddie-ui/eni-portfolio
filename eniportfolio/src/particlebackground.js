@@ -13,10 +13,19 @@ const particlesLoaded = (Loader) => {
   console.log(Loader);
 };
 const ParticleBackground = () => {
-  
+  var screen = document.querySelector("body");
+  var height;
+  useEffect(() => {
+    height = Math.max(
+      screen.clientHeight,
+      screen.offsetHeight,
+      screen.scrollHeight
+    );
+    console.log(screen, "height", height);
+  });
   return (
     <Particles
-      height="100%"
+      height="9000px"
       init={particlesInit}
       loaded={particlesLoaded}
       params={ParticlesConfig}

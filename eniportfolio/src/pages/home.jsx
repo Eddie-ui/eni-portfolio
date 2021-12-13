@@ -15,7 +15,7 @@ import FooterSection from "../components/footer";
   top: 0;
   left: 0;
   width: 100%;
-  height: max-content;
+  height: 100%;
 `;
 const Home = () => {
   return (
