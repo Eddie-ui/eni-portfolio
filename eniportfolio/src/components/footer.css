@@ -1,0 +1,92 @@
+.section-subtext {
+  font-weight: normal;
+  font-size: 27.04px;
+  line-height: 36px;
+  text-align: center;
+  max-width: 840px;
+  color: #ffffff;
+}
+.contact-white {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.contact-fade {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #ffffff3f;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  display: flex;
+}
+.contact-white img {
+  height: 55px;
+  width: auto;
+}
+.contact-card {
+  display: flex;
+  padding: 80px 40px;
+ 
+}
+.contact-ctn{
+     border-radius: 6px;
+  background: #080d2a;
+}
+.contact-header {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 149.5%;
+  /* identical to box height, or 63px */
+
+  color: #ffffff;
+}
+.contact-info {
+  font-size: 25px;
+  line-height: 36px;
+  /* identical to box height */
+
+  text-align: center;
+  word-break: break-all;
+  color: #ffffff;
+}
+.finish-line{
+    margin-top: 60px;
+    width: 80%;
+border-bottom: 5px solid #30375B;}
+@media (max-width: 768px) {
+.section-subtext{
+  text-align: left ;
+  font-size: 16px;
+  line-height: 25px;
+}
+.contact-header{
+  font-size: 30px;
+}.contact-info{
+  font-size: 17px;
+}.contact-card{
+  padding: 50px 20px;
+}
+.contact-white{
+  width: 70px;
+  height: 70px;
+}
+.contact-fade{
+  width: 100px;
+  height: 100px;
+}
+}
+.contact-ctn
+{
+  transition: .5s ease;
+}
+.contact-ctn:hover{
+transform: scale(1.015);
+}
