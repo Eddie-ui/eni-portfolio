@@ -4,12 +4,14 @@ body {
   font-family: 'Exo', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  zoom: 77% !important;
+  zoom: 88% !important;
   color: #fff;
   background-color: #000624;
   height: 100%;
   scroll-behavior: smooth !important;
 }
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

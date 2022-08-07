@@ -19,9 +19,9 @@ const PersonalInfo = () => {
   return (
     <section id="pinfosection">
       <div className="w-100 overflow-hidden">
-        <div className="row px-3 px-lg-5 px-md-5 py-3  justify-content-between">
+        <div className="row px-4 px-lg-5 px-md-5 py-3  justify-content-between">
           <div className="col-sm-12 text-center">
-            <h3 className="section-header mx-auto mb-5" data-aos="fade-up">
+            <h3 className="section-header mx-auto mb-5 " data-aos="fade-up">
               Personal Info.
             </h3>
           </div>
@@ -45,10 +45,10 @@ const PersonalInfo = () => {
             </p>
             <div className="avatar-ctn w-100 mt-5 d-flex">
               <img src={avatar} alt="Eniola Ajibode" className="avatar" />{" "}
-              <div id="chat-btn" className=" px-4 py-3" data-aos="fade-up">
+              {/* <div id="chat-btn" className=" px-4 py-3" data-aos="fade-up">
                 {" "}
                 Hi, I'm Eniola, scroll down to view my latest work!!{" "}
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-sm-12 col-lg-5 col-md-5 pt-lg-5 pt-sm-3 pt-md-5">

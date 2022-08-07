@@ -43,7 +43,7 @@ const WorkSection = () => {
   return (
     <section id="worksection">
       <div className="w-100 overflow-hidden">
-        <div className="row px-3 px-lg-5 px-md-5 py-3">
+        <div className="row px-4 px-lg-5 px-md-5 py-3">
           <div className="col-sm-12 text-center">
             <h3 className="section-header mx-auto mb-5" data-aos="fade-up">
               Latest Work

@@ -34,7 +34,7 @@ const Nav = () => {
 
   return (
     <nav
-      className="navbar navbar-expand-lg px-4 py-3  sticky-top w-100 overflow-hidden"
+      className="navbar navbar-expand-lg px-4 py-1 py-md-3 py-lg-3  sticky-top w-100 overflow-hidden"
       onChange={defaultChange}
     >
       <div className={click ? "container-fluid fluid" : "container-fluid"}>

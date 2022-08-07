@@ -6,12 +6,12 @@ import "./footer.css";import Aos from "aos";
 import "aos/dist/aos.css";
 
 const FooterSection = () => { useEffect(() => {
-  Aos.init({ duration: 500, once: true, mirror: false, offset: 120, disable: "mobile" });
+  Aos.init({ duration: 500, once: true, mirror: false, offset: 20, disable: "mobile" });
 });
   return (
     <section id="footer">
       <div className="w-100 overflow-hidden">
-        <div className="row px-3 px-lg-5 px-md-5 py-3 gx-4 gy-4 pt-5 row-diff">
+        <div className="row px-4 px-lg-5 px-md-5 py-3 gx-4 gy-4 pt-5 row-diff">
           <div className="col-sm-12 text-center">
             <h3 className="section-header mx-auto mb-3 mt-5" data-aos="fade-up">
               Let's Build Together

@@ -29,7 +29,7 @@ const HeroSection = () => {
   return (
     <section id="herosection">
       <div className="w-100  overflow-hidden">
-        <div className="row justify-content-center  px-3 py-5">
+        <div className="row justify-content-center  px-4 py-5">
           <div className="col-lg-9 col-sm-12 col-md-10 col-xl-9 col-xxl-9  pt-5 mt-5">
             <p className="hero-subtext" data-aos="fade-up">
               Hi There! I’m Eniola{" "}
@@ -40,9 +40,9 @@ const HeroSection = () => {
               data-aos-delay="200"
             >
               I am a UI/UX Designer based in Lagos, Nigeria. I am focused on
-              creating User-centric experiences and meaningful identities.
+              creating User-centric digital products and meaningful experiences.
             </h3>
-            <div className="green-ctn d-flex mt-4">
+            <div className="green-ctn d-flex mt-5 pt-4">
               <div className="green-box me-4" id="greenbox"></div>{" "}
               <a
                 className="d-flex"
@@ -59,12 +59,7 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="spiral-ctn text-center mt-5 mt-md-0 mt-lg-0">
-            <img
-              className="spiral"
-              src={spiral}
-              alt="scroll down"
-             
-            />
+            <img className="spiral" src={spiral} alt="scroll down" />
           </div>
         </div>
       </div>
